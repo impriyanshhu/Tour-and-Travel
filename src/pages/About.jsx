@@ -172,6 +172,7 @@ const About = () => {
         </p>
         <Link
           to={"/tours"}
+          onClick={()=>scrollTo(0,0)}
           className="inline-block bg-white text-blue-700 font-semibold px-8 py-3 rounded-lg hover:bg-gray-100 transition"
         >
           Book Your Tour
