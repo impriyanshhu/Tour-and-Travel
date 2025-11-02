@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const About = () => {
   const sectionVariants = {
@@ -169,12 +170,12 @@ const About = () => {
           magic. Let us show you the best of our home — one unforgettable moment
           at a time.
         </p>
-        <a
-          href="/tours"
+        <Link>
+          to={"/tours"}
           className="inline-block bg-white text-blue-700 font-semibold px-8 py-3 rounded-lg hover:bg-gray-100 transition"
         >
           Book Your Tour
-        </a>
+        </Link>
       </motion.section>
 
     </div>
