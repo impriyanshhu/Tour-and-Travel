@@ -170,7 +170,7 @@ const About = () => {
           magic. Let us show you the best of our home — one unforgettable moment
           at a time.
         </p>
-        <Link>
+        <Link
           to={"/tours"}
           className="inline-block bg-white text-blue-700 font-semibold px-8 py-3 rounded-lg hover:bg-gray-100 transition"
         >
